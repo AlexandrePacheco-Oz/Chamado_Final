@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="http://arknet.arklok.com.br/assets/img/favicon/favicon.ico">
+    <title>Chamados</title>
+
+  <link rel="stylesheet" href="./index.css">
+    
+</head>
+<body >
+
+<img src="./bg-about-arklok.png" alt="">
+  <div class="mode">
+
+    <h3>Abertura de chamado</h3>
+
+    <input type="text" id="nome" placeholder="Nome" class="nome"> <br><br>  
+  
+    <input type="text" id="local" placeholder="Local" class="nome"><br><br>  
+
+    <input type="number" id="cervelo" placeholder="Chamado Cervello" class="nome"><br><br> 
+
+    <input type="tel" id="Telefone" placeholder="Telefone" class="nome"> <br><br>
+
+    <input type="text" id="patrimonio" placeholder="Patrimônio" class="nome"> <br><br>
+
+    <input type="text" id="chamadoTim" placeholder="Chamado Tim" class="nome"> <br><br>
+
+    <input type="text" placeholder="Descrição " id="Descricao" class="nome" >
+    
+    <p>Data e Horario de Atendimento</p>
+    <input type="date" id="data" placeholder="Data"> 
+ 
+    <input type="time" id="hora" placeholder="Horas" ><br><br> 
+
+      
+
+    <button type="submit" onclick="chamado();">Seguir</button> 
+    <button type="reset" onclick="reset();">Limpar</button>
+
+  </div>
+
+
+  <div class="mode2">
+    
+    <p id="resposta"></p>
+    <button type="button" class="button2" onclick="copiar('resposta');">Copy</button>
+
+   
+  </div>
+
+  <div class="mode3">
+    
+    <p id="resposta2"></p>
+    <button type="button" class="button2" onclick="copiar('resposta2')">Copy</button>
+   
+   
+  </div>
+ 
+  <!--@Pacheco_oz-->
+ 
+</body>
+<script src="./index.js"></script>
+
