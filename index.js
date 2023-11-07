@@ -39,7 +39,7 @@ function reset(){
     document.getElementById("Telefone").value = "";
     document.getElementById("patrimonio").value = "";
     document.getElementById("chamadoTim").value = "";
-    document.getElementById("descricao").value = "";
+    document.getElementById("Descricao").value = "";
     document.getElementById("resposta").innerHTML = "";
     document.getElementById("resposta2").innerHTML = "";
 
